@@ -1,0 +1,320 @@
+body{
+	background-color:whitesmoke ;
+}
+html{
+ scroll-behavior:smooth;
+}
+.logo img{
+	float:left;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+}
+.banner{
+	text-align: auto;
+	display: inline-block;
+	
+}
+
+.banner h1{
+	margin-left: 7%;
+	color:#262626;
+	display:inline-block;
+	font-family: monospace;
+	animation: color-change 1s Linear ;
+	animation-delay: 0s;
+	float:right;
+}
+.tot{
+  animation: color-change 1s Linear ;
+  animation-delay: 0s;
+}
+#gui{
+ border: solid grey 2px;
+ border-radius: 5px;
+
+}
+@keyframes color-change{
+	0%{
+		text-shadow: none;
+		filter: blur(8px);
+  -webkit-filter: blur(8px);}
+	50%{
+		text-shadow: none;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);}
+	70%{
+		  text-shadow:white 2px 2px;
+	}
+	100%{
+		text-shadow:white 2px 2px;
+	}
+	
+}
+.card{
+	border-radius:7px;
+	font-family: "Cambria";
+}
+.card ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.card li {
+  float: left;
+  
+}
+
+.card li:last-child {
+  border-right: none;
+  font-family: "Cambria";
+  border-radius:10px;
+}
+.card li a{
+  display: block;
+  color:#262626;
+  text-align: center;
+  border-radius: 10px;
+  padding: 11px 13px;
+  text-decoration: none;
+}
+
+.card li a:hover:not(.active) {
+  background-color: grey;
+}
+.card li a:hover{
+	background-color: grey;
+	color: white;
+}
+
+
+.wel{
+padding: 20px
+}
+.wel h1{
+	text-align: center;
+	font-family:Helvetica,serif;
+	color:#ff944d;
+
+}
+.orderonline img{
+	display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.q1 marquee{
+	color:#595959;
+	text-align: center;
+	font-size: 50px;
+	font-family: Comic Sans;
+}
+#hotels{
+	text-align: center;
+	font-family: Helvetica,serif;
+	color:#ff944d;
+	text-decoration: blink;
+	margin-top:5%;
+	
+}
+.hotels_card{
+	padding:40px;
+	position: relative;
+	overflow: auto;
+	white-space: nowrap;
+	font-family: arial;
+	text-align: center;
+	border-radius: 20px;
+	margin-left:10%;
+	margin-right: 10%;
+	scroll-snap-type: x mandatory;
+}
+.hotels_card nav{
+	display: inline-block;
+
+}
+.hotels_card h2{
+	color: black;
+	font-family: Arial;
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+	outline-color: black;
+	background-image: url('hotelbanner.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	
+}
+.hotels_card button{
+	padding:10px;
+	border-radius:50%;
+	height: 100px;
+	width:100px;
+	box-shadow:black 2px 2px 2px 2px;
+	background-color: green;
+	color: floralwhite;
+	font-weight:bold;
+	cursor:pointer;
+}
+.hotels_card button:hover{
+	background-color: grey;
+
+}
+
+.description p{
+	font-family:Perpetua;
+	color: gold;
+	background-color:black;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+	font-size: 20px;
+	padding: 17px;
+	border-radius: 0px 20px 0px 20px;
+
+
+}
+.ihot{
+	block-size: fixed;
+	background-image: url('cardback1.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	padding: 20px;
+	border-radius:20px;
+	box-shadow:grey 4px 4px 4px 4px;
+	height: 320px;
+	width:250px;
+	margin-right: 25px;
+	border: 2px antiquewhite solid;
+	scroll-snap-align:center;
+}
+
+.hotels_card button a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: monospace;
+	text-shadow: black ;
+	color: white;
+}
+.symb h4{
+	
+	text-align: center;
+	color:grey;
+	font-size: 20px;
+	font-family:monospace;
+}
+
+.menulist h2{
+	text-align: center;
+	font-family:Helvetica,serif;
+	color:#FFAE0B;
+	text-decoration: blink;
+	margin-top:5%;
+	font-size: 30px;
+}
+.menulist h3{
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	padding: 30px;
+	color: black;
+	padding-bottom: 5px;
+	
+
+}
+.menulist a{
+	text-decoration: none;
+	background-color: skyblue;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+	border:inset 2px skyblue;
+	box-shadow: grey 2px 2px 2px 2px;
+}
+.menulist p{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.download{
+	background-color: white;
+	background-color: white;
+	border-radius: 10px;
+	margin-left:10% ;
+	margin-right:10% ;
+	padding-bottom: 30px;
+}
+.copyright p{
+	text-align: center;
+	color: #595959;
+	font-family: arial;
+
+}
+
+.gu{
+	text-align: center;
+	align-items: center;
+
+}
+
+.gu button{
+	color:white;
+	background-color: #3333ff;
+	border-radius: 5px;
+	padding:10px;
+	border: #3333ff 3px solid;
+
+
+
+
+}
+.gu p{
+	text-align:center;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: arial;
+	color: #595959;
+	border-radius: 7px;
+	border: solid 3px white;
+	background-color: white;
+	word-spacing: 1.0px;
+	display:none;
+	
+}
+.head{
+	color: orangered;
+	font-family: fantasy;
+}
+
+.feedback{
+
+	margin:auto;
+	width:50%;
+	padding:10px;
+
+}
+.feedback p{
+	text-align: center;
+}
+.feedback a{
+	text-decoration: none;
+	background-color: green;
+	font-family: arial;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	border:solid 2px green;
+	box-shadow: black 0px 0px 0px 0px;
+
+}
+.feedback a:hover{
+	padding: 12px;
+	background-color:grey;
+	border:solid 2px grey;
+
+}
