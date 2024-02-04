@@ -80,7 +80,11 @@ function automate(){
                 }
             }
             if(a[1] == 1){
-                if(Hours >= 12){
+                 if((Hours >= 11)&&(min>=30)){
+                    taj_clo.style.display = "inline-block";
+                    taj_open.style.display = "none";
+                }
+                else if(Hours > 11){
                     taj_clo.style.display = "inline-block";
                     taj_open.style.display = "none";
                 }
