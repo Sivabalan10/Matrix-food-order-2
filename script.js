@@ -58,8 +58,8 @@ function automate(){
     let pot_clo = document.getElementById('pot_clo');
     let rem_open = document.getElementById('rem_open');
     let rem_clo = document.getElementById('rem_clo');
-    let rem1_open = document.getElementById('rem1_open');
-    let rem1_clo = document.getElementById('rem1_clo');
+    // let rem1_open = document.getElementById('rem1_open');
+    // let rem1_clo = document.getElementById('rem1_clo');
     let rem2_open = document.getElementById('rem2_open');
     let rem2_clo = document.getElementById('rem2_clo');
 
@@ -111,24 +111,24 @@ function automate(){
                 if((Hours >= 11)&&(min>=30)){
                     rem_clo.style.display = "inline-block";
                     rem_open.style.display = "none";
-                    rem1_clo.style.display = "inline-block";
-                    rem1_open.style.display = "none";
+                    // rem1_clo.style.display = "inline-block";
+                    // rem1_open.style.display = "none";
                     rem2_clo.style.display = "inline-block";
                     rem2_open.style.display = "none";
                 }
                 else if(Hours > 11){
                     rem_clo.style.display = "inline-block";
                     rem_open.style.display = "none";
-                    rem1_clo.style.display = "inline-block";
-                    rem1_open.style.display = "none";
+                    // rem1_clo.style.display = "inline-block";
+                    // rem1_open.style.display = "none";
                     rem2_clo.style.display = "inline-block";
                     rem2_open.style.display = "none";
                 }
                 else{
                     rem_open.style.display = "inline-block";
                     rem_clo.style.display = "none";
-                    rem1_open.style.display = "inline-block";
-                    rem1_clo.style.display = "none";
+                    // rem1_open.style.display = "inline-block";
+                    // rem1_clo.style.display = "none";
                     rem2_open.style.display = "inline-block";
                     rem2_clo.style.display = "none";
                 }
@@ -145,8 +145,8 @@ function automate(){
             pot_open.style.display = "none";
             rem_clo.style.display = "inline-block";
             rem_open.style.display = "none";
-            rem1_clo.style.display = "inline-block";
-            rem1_open.style.display = "none";
+            // rem1_clo.style.display = "inline-block";
+            // rem1_open.style.display = "none";
             rem2_clo.style.display = "inline-block";
             rem2_open.style.display = "none";
         }
@@ -161,8 +161,8 @@ function automate(){
         pot_open.style.display = "none";
         rem_clo.style.display = "inline-block";
         rem_open.style.display = "none";
-        rem1_clo.style.display = "inline-block";
-        rem1_open.style.display = "none";
+        // rem1_clo.style.display = "inline-block";
+        // rem1_open.style.display = "none";
         rem2_clo.style.display = "inline-block";
         rem2_open.style.display = "none";
     }
